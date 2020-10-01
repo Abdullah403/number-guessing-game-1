@@ -1,3 +1,5 @@
+i = 'WELCOME THIS IS A NUMBER GUESSING GAME'
+print(i.center(60))
 import random
 
 #Takes the user's guess and displays the appropriate response
@@ -36,6 +38,8 @@ def main():
                 guesses = []
                 guess_number = createNumber()
             else:
-                exit               
+                exit
+a='THANKS FOR PLAYING'
+print(a.center(60))
         
 main()
